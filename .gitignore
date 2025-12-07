@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+# OS
+Thumbs.db
+*.DS_Store
+
+# Streamlit cache
+.streamlit/

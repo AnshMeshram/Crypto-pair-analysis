@@ -1,0 +1,117 @@
+# GitHub Repository Description
+
+## Short Description (for GitHub repo)
+
+Real-time cryptocurrency pair trading analytics dashboard with Binance WebSocket integration, statistical arbitrage metrics (OLS hedge ratio, spread z-score, ADF test), and interactive Streamlit frontend.
+
+---
+
+## Long Description (for README badge section)
+
+### Crypto Pair Analytics
+
+A production-ready real-time analytics platform for quantitative traders analyzing cryptocurrency pair relationships. Stream live tick data from Binance, compute hedge ratios and spread signals, and visualize results through an interactive web dashboard.
+
+**Key Features:**
+- 🔌 Live Binance WebSocket ingestion (BTC, ETH, BNB, and 100+ symbols)
+- 📊 Interactive Streamlit dashboard with Plotly charts
+- 💹 OLS hedge ratio, spread calculation, and z-score normalization
+- 📈 ADF stationarity test for mean-reversion detection
+- ⚡ Resampling (1s, 1min, 5min) for multi-timeframe analysis
+- 🚨 Custom alert system with threshold triggers
+- 💾 CSV export for further analysis
+- 🎯 Support for uploaded OHLC data (offline analysis)
+
+**Built for:** Statistical arbitrage traders, quant researchers, algo trading enthusiasts, and fintech students.
+
+---
+
+## GitHub Topics
+
+Add these topics to your GitHub repo settings:
+- `cryptocurrency`
+- `trading`
+- `quantitative-finance`
+- `statistical-arbitrage`
+- `binance`
+- `streamlit`
+- `pandas`
+- `real-time-analytics`
+- `pair-trading`
+- `fintech`
+
+---
+
+## GitHub Repo Settings
+
+### Description
+```
+Real-time crypto pair analytics dashboard | OLS hedge ratio, spread, z-score, ADF test | Binance WebSocket | Streamlit UI
+```
+
+### Website
+```
+https://github.com/YOUR_USERNAME/crypto-pair-analytics
+```
+
+### Keywords/Topics
+- cryptocurrency
+- trading
+- quantitative-finance
+- streamlit
+- pandas
+- binance
+
+### Visibility
+- Public (recommended for portfolio)
+
+---
+
+## What to Put in GitHub About Section
+
+**Description:**
+Real-time cryptocurrency pair trading analytics with live Binance data streaming, statistical arbitrage metrics, and interactive dashboard.
+
+**Website:** (optional - link to docs or live demo)
+
+**Topics:** cryptocurrency, trading, quantitative-finance, streamlit, pandas, binance, pair-trading
+
+---
+
+## README Badges to Add (optional)
+
+```markdown
+# Crypto Pair Analytics
+
+[![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Status: Active Development](https://img.shields.io/badge/status-active%20development-brightgreen)](README.md)
+
+Real-time cryptocurrency pair trading analytics dashboard...
+```
+
+---
+
+## Sample Commit Message for GitHub
+
+Use this when pushing to GitHub:
+
+```
+git commit -m "Initial commit: real-time crypto analytics dashboard
+
+- Real-time Binance WebSocket ingestion for BTC, ETH, BNB
+- OLS hedge ratio, spread, and z-score calculations
+- Interactive Streamlit dashboard with Plotly charts
+- ADF test for stationarity detection
+- Multi-timeframe resampling (1s, 1min, 5min)
+- CSV export and alert system
+- Support for uploaded OHLC data
+
+Features:
+  * Backend: Python asyncio WebSocket + SQLite
+  * Frontend: Streamlit + Plotly
+  * Analytics: NumPy, Pandas, Statsmodels
+  
+See README.md for setup instructions."
+```
